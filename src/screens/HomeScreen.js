@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, Button } from 'react-native';
-import { getCategories, getProducts } from '../services/api';
+import { getCategories, getProducts } from '../ApiEndPoints/api';
 
 const HomeScreen = ({ navigation }) => {
   const [categories, setCategories] = useState([]);
